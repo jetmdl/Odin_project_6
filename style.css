@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  }
+
+.container {
+    height: 71vw;
+    width: 100vw;
+    display: flex;
+}
+
+.leftContainer {
+    height: 100%;
+    width: 45vw;
+    background-color: green;
+    background-image: url("src/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: 45vw 100vw;
+}
+
+.rightContainer {
+    height: 100%;
+    width: 55vw;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
+  
+.topFormContainer {
+    height: 35%;
+    width: 55vw;
+}
+
+.paraContainer {
+    font-size: 1.8rem;
+    padding-top: 200px;
+    padding-left: 40px;
+    padding-right: 140px;
+}
+
+.paraContainer > p {
+    padding-bottom: 50px;
+}
+
+.middleFormContainer {
+    height: 30%;
+    width: 55vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitleContainer {
+    width: 100%;
+    height: 35px;
+    padding: 20px;
+    font-size: 1.8rem;
+    padding-left: 40px;
+}
+
+.formContainer {
+    padding-left: 40px;
+}
+
+.formItem {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 60px 20px 0px;
+}
+
+.formPair {
+    display: flex;
+    flex-direction: row;
+}
+
+.inputField {
+    height: 30px;
+    width: 250px;
+}
+
+.inputField:focus{
+    border-color: blue;
+}
+
+.inputField:invalid{
+    border-color: red;
+}
+
+.inputField:valid{
+    border-color: green;
+}
+
+.bottomFormContainer {
+    height: 35%;
+    width: 55vw;
+}
+
+.logoContainer {
+    height: 20%;
+    width: 45vw;
+    position: absolute;
+    top: 200px;
+    background-color: black;
+    opacity: 0.5;
+}
